@@ -2,8 +2,8 @@
 
 This project demonstrates House Price Prediction using Simple Linear Regression and Multiple Linear Regression.
 The goal is to predict house prices based on features such as square feet (sqft living), floors, bedrooms, and other attributes.
-
 The app is built using Python, Scikit-learn, and Streamlit, and the models are saved using Pickle for deployment.
+
 
 📌 Features
 
@@ -12,6 +12,8 @@ The app is built using Python, Scikit-learn, and Streamlit, and the models are s
 ✅ Interactive Streamlit App for real-time predictions
 ✅ Models saved and loaded with Pickle
 ✅ Easy-to-use interface for users
+
+
 
 ⚙️ Tech Stack
 
@@ -26,6 +28,7 @@ Scikit-learn → Machine Learning (Linear Regression)
 Pickle → Model saving/loading
 
 Streamlit → Web app
+
 
 📂 Project Structure
 House_Price_Prediction/
@@ -45,16 +48,23 @@ House_Price_Prediction/
 ├── requirements.txt                 # Dependencies
 └── README.md                        # Project documentation
 
+
+
+
 🚀 How to Run
 1. Clone the Repository
 git clone https://github.com/your-username/house-price-prediction.git
 cd house-price-prediction
 
+
 2. Install Dependencies
 pip install -r requirements.txt
 
+
 3. Run the Streamlit App
 streamlit run app.py
+
+
 
 📊 Model Information
 🔹 Simple Linear Regression
@@ -65,6 +75,7 @@ Feature used: sqft_living
 🔹 Multiple Linear Regression
 
 Features used: sqft_living, floors, bedrooms, bathrooms, etc.
+
 
 
 ✨ Example Predictions
@@ -79,6 +90,8 @@ Output: Predicted Price ≈ ₹ 50,00,000
 Input: sqft_living = 2000, floors = 2, bedrooms = 3, bathrooms = 2
 
 Output: Predicted Price ≈ ₹ 62,00,000
+
+
 
 🙌 Acknowledgements
 
